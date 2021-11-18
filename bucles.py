@@ -12,9 +12,8 @@
 # función range:     range(desde, hasta)
 
 print("Ejemplo for")
-for i in range(10): # números del 0 al 10
+for i in range(12): # números del 0 al 10
     print(i)
-
 # while
 #    # 1. while condición:
 #    # 2.    Hace esto mientras condición resulta verdadero
@@ -32,7 +31,8 @@ while a < b:
 #    propia rama del repositorio
 # 2. Resuelve el problema de la tabla de multiplicar.
 # 3. Puedes hacer "commit & push" para guardar los cambios en GitHub
-numero = 1 #pon aquí el número del que quieres hacer la tabla
+
+numero = 1
 print("tabla de multiplicar del ", numero)
-
-
+for i in range(11):
+    print(numero,"por" ,i, "=",numero *i )
