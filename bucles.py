@@ -36,3 +36,9 @@ numero = 1
 print("tabla de multiplicar del ", numero)
 for i in range(11):
     print(numero,"por" ,i, "=",numero *i )
+print("Ejemplo while")
+a = 1
+b = 11
+while a < b:
+    print(a)
+    a += 1
