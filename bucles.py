@@ -32,14 +32,15 @@ while a < b:
 # 2. Resuelve el problema de la tabla de multiplicar.
 # 3. Puedes hacer "commit & push" para guardar los cambios en GitHub
 
-numero = 1
-print("tabla de multiplicar del ", numero)
+numero = 3
+print("tabla de multiplicar del", numero)
 for i in range(11):
     print(numero,"por" ,i, "=",numero *i )
 
-print("Whyle by Andrei") 
+print("While by Andrei") 
+numero=int(input("escribe un numero"))
 a = 1
 b = 11
 while a < b:
-    print(a)
+    print(numero,"por",a, "=", numero *a)
     a += 1
